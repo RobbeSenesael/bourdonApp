@@ -1,0 +1,49 @@
+.btn-small {
+    width: 50px;
+    height: 35px;
+    font-size: 1.2rem;
+}
+.btn-large{
+    width: 19%;
+    height: 35px;
+    height: 35px;
+    font-size: 1.2rem;
+    border-radius: 6px;
+}
+.btn-default {
+    background-color: #d8d8d8;
+}
+
+.btn-primary, .btn-active {
+    background-color: #56c8f5;
+    color: white;
+}
+
+.bourdon-field{
+    height: 20px ;
+    width: 18%;
+    text-align: center;
+}
+.bourdon-item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2px;
+    width: 32%;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+.bourdon-item:nth-of-type(odd){
+    background-color: #dbdbdb;
+    border: 1px solid #dbdbdb;
+}
+.bourdon-item:nth-of-type(even) {
+    background-color: #c2c2c2;
+    border: 1px solid #c2c2c2;
+}
+
+.highlight{
+    border: 1px #EC008C solid !important;
+}
